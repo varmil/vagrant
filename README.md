@@ -17,6 +17,7 @@
 
 
 #### On Remote Machine(192.168.33.11)
+###### This is Ansible server machine
     ssh vagrant@192.168.33.11
     sudo yum install ansible
     git clone https://github.com/varmil/ansible.git
@@ -25,5 +26,5 @@
 
 
 #### On Remote Machine(192.168.33.12)
-
-* This is for development. You use this.
+###### This is for development. You use this machine.
+    ssh vagrant@192.168.33.12
