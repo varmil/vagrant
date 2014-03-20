@@ -10,6 +10,7 @@
     vagrant ssh-config node1 > ssh_config
     vagrant ssh-config node2 >> ssh_config
     scp -F ssh_config ~/.vagrant.d/insecure_private_key node1:.ssh/id_rsa
+
 > 起動後、Ansible で node1 から node2 へ ssh するため、Vagrant 用の秘密鍵をコピーする
 
 
