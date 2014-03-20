@@ -18,7 +18,7 @@
 
 #### On Remote Machine(192.168.33.11)
     ssh vagrant@192.168.33.11
-    yum install ansible
+    sudo yum install ansible
     git clone https://github.com/varmil/ansible.git
     cd ansible
     ansible-playbook -i test-servers site.yml
