@@ -1,10 +1,10 @@
 # How To Use  
 
-#### On Local Machine  
 
 * First, install Vagrant and VirtualBox on your machine  
 
 
+#### On Local Machine
     git clone https://github.com/varmil/vagrant.git
     cd vagrant
     vagrant up
